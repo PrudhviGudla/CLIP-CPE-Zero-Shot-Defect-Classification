@@ -34,7 +34,7 @@ Results in 9 different prompts for "crack" class
 ## 📊 Results
 
 ### Two-Stage Classification (Binary + Multi-Class)
-Binary Classification Thresold set to 0
+Binary Classification Threshold set to 0
 | Metric | Binary (Normal vs Anomaly) | Multi-Class (All Classes) |
 |--------|---------------------------:|---------------------------:|
 | **Overall Accuracy** | **78.2%** | **64.5%** |
@@ -72,8 +72,8 @@ The results demonstrate the effectiveness of the two-stage pipeline over direct 
 ## Usage
 Installation
 ```
-git clone https://github.com/PrudhviGudla/WinCLIP-Zero-Shot-Defect-Classification.git
-cd WinCLIP-Zero-Shot-Defect-Classification
+git clone https://github.com/PrudhviGudla/CLIP-CPE-Zero-Shot-Defect-Classification.git
+cd CLIP-CPE-Zero-Shot-Defect-Classification
 pip install -r requirements.txt
 ```
 
@@ -109,7 +109,7 @@ Modify spec.py's DefectClassificationSpec Pydantic class to customize the model,
 
 ```
 class DefectClassificationSpec:
-    model_name = "ViT-B/32"
+    model_name = "ViT-L/14"
     
     # Customize templates
     templates = [
