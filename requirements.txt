@@ -1,0 +1,6 @@
+git+https://github.com/openai/CLIP.git
+pydantic
+torch
+numpy
+Pillow
+scikit-learn
