@@ -79,7 +79,7 @@ pip install -r requirements.txt
 
 ### Method 1: Using the Python Script
 ```
-python run_inference.py --dat_dir /path/to/test/data 
+python run_inference.py --data_dir /path/to/test/data 
 ```
 
 ### Method 2: Using Jupyter Notebook
